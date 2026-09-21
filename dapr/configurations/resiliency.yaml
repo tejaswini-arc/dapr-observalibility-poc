@@ -1,0 +1,23 @@
+apiVersion: dapr.io/v1alpha1
+kind: Resiliency
+metadata:
+  name: payment-notification-resiliency
+
+spec:
+  policies:
+
+    timeouts:
+      notification-timeout: 5s
+
+    retries:
+      notification-retry:
+        policy: exponential
+        maxInterval: 2s
+        maxRetries: 3
+
+  targets:
+
+    apps:
+      notification-service:
+        timeout: notification-timeout
+        retry: notification-retry

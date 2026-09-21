@@ -1,0 +1,24 @@
+== APP - payment-service == 
+== APP - payment-service ==   .   ____          _            __ _ _
+== APP - payment-service ==  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+== APP - payment-service == ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+== APP - payment-service ==  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+== APP - payment-service ==   '  |____| .__|_| |_|_| |_\__, | / / / /
+== APP - payment-service ==  =========|_|==============|___/=/_/_/_/
+== APP - payment-service == 
+== APP - payment-service ==  :: Spring Boot ::                (v4.1.1)
+== APP - payment-service == 
+== APP - payment-service == 2026-09-21T15:16:04.323+05:30  INFO 5328 --- [dapr-payment-service] [           main] c.i.d.p.DaprPaymentServiceApplication    : Starting DaprPaymentServiceApplication v0.0.1-SNAPSHOT using Java 25.0.3 with PID 5328 (D:\Teju-AppData\SpringMicroservices-Projects\dapr-payment-notification-poc\dapr-payment-service\target\dapr-payment-service-0.0.1-SNAPSHOT.jar started by Amol in D:\Teju-AppData\SpringMicroservices-Projects\dapr-payment-notification-poc\dapr-payment-service)
+== APP - payment-service == 2026-09-21T15:16:04.326+05:30  INFO 5328 --- [dapr-payment-service] [           main] c.i.d.p.DaprPaymentServiceApplication    : No active profile set, falling back to 1 default profile: "default"
+== APP - payment-service == 2026-09-21T15:16:05.358+05:30  INFO 5328 --- [dapr-payment-service] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8081 (http)
+== APP - payment-service == 2026-09-21T15:16:05.369+05:30  INFO 5328 --- [dapr-payment-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+== APP - payment-service == 2026-09-21T15:16:05.369+05:30  INFO 5328 --- [dapr-payment-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+== APP - payment-service == 2026-09-21T15:16:05.395+05:30  INFO 5328 --- [dapr-payment-service] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1021 ms
+== APP - payment-service == 2026-09-21T15:16:06.151+05:30  INFO 5328 --- [dapr-payment-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+== APP - payment-service == 2026-09-21T15:16:06.217+05:30  INFO 5328 --- [dapr-payment-service] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8081 (http) with context path '/'
+== APP - payment-service == 2026-09-21T15:16:06.224+05:30  INFO 5328 --- [dapr-payment-service] [           main] c.i.d.p.DaprPaymentServiceApplication    : Started DaprPaymentServiceApplication in 2.331 seconds (process running for 2.868)
+== APP - payment-service == 2026-09-21T15:16:06.325+05:30  INFO 5328 --- [dapr-payment-service] [nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+== APP - payment-service == 2026-09-21T15:16:06.325+05:30  INFO 5328 --- [dapr-payment-service] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+== APP - payment-service == 2026-09-21T15:16:06.327+05:30  INFO 5328 --- [dapr-payment-service] [nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+
+termination signal received: shutting down

@@ -1,0 +1,27 @@
+== APP - notification-service == 
+== APP - notification-service ==   .   ____          _            __ _ _
+== APP - notification-service ==  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+== APP - notification-service == ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+== APP - notification-service ==  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+== APP - notification-service ==   '  |____| .__|_| |_|_| |_\__, | / / / /
+== APP - notification-service ==  =========|_|==============|___/=/_/_/_/
+== APP - notification-service == 
+== APP - notification-service ==  :: Spring Boot ::                (v4.1.1)
+== APP - notification-service == 
+== APP - notification-service == 2026-09-21T15:05:23.247+05:30  INFO 27744 --- [dapr-notification-service] [           main] i.d.n.DaprNotificationServiceApplication : Starting DaprNotificationServiceApplication v0.0.1-SNAPSHOT using Java 25.0.3 with PID 27744 (D:\Teju-AppData\SpringMicroservices-Projects\dapr-payment-notification-poc\dapr-notification-service\target\dapr-notification-service-0.0.1-SNAPSHOT.jar started by Amol in D:\Teju-AppData\SpringMicroservices-Projects\dapr-payment-notification-poc\dapr-notification-service)
+== APP - notification-service == 2026-09-21T15:05:23.252+05:30  INFO 27744 --- [dapr-notification-service] [           main] i.d.n.DaprNotificationServiceApplication : No active profile set, falling back to 1 default profile: "default"
+== APP - notification-service == 2026-09-21T15:05:24.353+05:30  INFO 27744 --- [dapr-notification-service] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+== APP - notification-service == 2026-09-21T15:05:24.366+05:30  INFO 27744 --- [dapr-notification-service] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+== APP - notification-service == 2026-09-21T15:05:24.367+05:30  INFO 27744 --- [dapr-notification-service] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+== APP - notification-service == 2026-09-21T15:05:24.391+05:30  INFO 27744 --- [dapr-notification-service] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1052 ms
+== APP - notification-service == 2026-09-21T15:05:24.952+05:30  INFO 27744 --- [dapr-notification-service] [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+== APP - notification-service == 2026-09-21T15:05:25.051+05:30  INFO 27744 --- [dapr-notification-service] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+== APP - notification-service == 2026-09-21T15:05:25.068+05:30  INFO 27744 --- [dapr-notification-service] [           main] i.d.n.DaprNotificationServiceApplication : Started DaprNotificationServiceApplication in 2.334 seconds (process running for 2.769)
+== APP - notification-service == 2026-09-21T15:05:25.132+05:30  INFO 27744 --- [dapr-notification-service] [nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+== APP - notification-service == 2026-09-21T15:05:25.133+05:30  INFO 27744 --- [dapr-notification-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+== APP - notification-service == 2026-09-21T15:05:25.137+05:30  INFO 27744 --- [dapr-notification-service] [nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+== APP - notification-service == Notification service received request
+The App process exited with error code: exit status 0xc000013a
+
+termination signal received: shutting down
+Error exiting App: exit status 0xc000013a

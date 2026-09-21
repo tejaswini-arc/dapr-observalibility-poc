@@ -1,0 +1,26 @@
+version: 1
+
+common:
+  resourcesPath: ./dapr/components
+
+apps:
+
+  - appID: notification-service
+    appDirPath: ./dapr-notification-service
+    appPort: 8082
+    daprHTTPPort: 3500
+    configFilePath: ../dapr/configurations/observability.yaml
+    command:
+      - java
+      - -jar
+      - target/dapr-notification-service-0.0.1-SNAPSHOT.jar
+
+  - appID: payment-service
+    appDirPath: ./dapr-payment-service
+    appPort: 8081
+    daprHTTPPort: 3501
+    configFilePath: ../dapr/configurations/observability.yaml
+    command:
+      - java
+      - -jar
+      - target/dapr-payment-service-0.0.1-SNAPSHOT.jar
