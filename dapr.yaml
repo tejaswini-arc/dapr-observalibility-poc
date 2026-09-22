@@ -9,6 +9,7 @@ apps:
     appDirPath: ./dapr-notification-service
     appPort: 8082
     daprHTTPPort: 3500
+    metricsPort: 9190
     configFilePath: ../dapr/configurations/observability.yaml
     command:
       - java
@@ -19,6 +20,7 @@ apps:
     appDirPath: ./dapr-payment-service
     appPort: 8081
     daprHTTPPort: 3501
+    metricsPort: 9191
     configFilePath: ../dapr/configurations/observability.yaml
     command:
       - java
